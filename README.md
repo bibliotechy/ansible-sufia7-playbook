@@ -1,10 +1,10 @@
-Builds a production-style Hydra head on an Ubuntu 14.04 Amazon EC2 instance or a vagrant box.
+Builds a production-style Hydra head on an Ubuntu 14.04 (Trusty) Debian 8.4 (Jessie) Amazon EC2 instance or a vagrant box.
 
 ## Prerequisites
-[Ansible](http://docs.ansible.com/intro_installation.html) 1.9 or above.
+[Ansible](http://docs.ansible.com/intro_installation.html) 2.0 or above.
 
 ## AWS / EC2 setup
-Step-by-step instructions were presented in our 2015 Hydra Connect talk: [Deploying Hydra with Ansible and AWS](https://wiki.duraspace.org/download/attachments/67241821/Deploying%20Hydra%20with%20Ansible%20and%20AWS%281%29.pdf?version=1&modificationDate=1443113768038&api=v2) -- The presentation is image-heavy and the [accompanying notes](https://wiki.duraspace.org/download/attachments/67241821/DevOpsHydraConnectDeployingHydrawithAnsibleandAWS.pdf?version=1&modificationDate=1449085395026&api=v2) provide more detail.
+Step-by-step instructions were presented in a 2015 Hydra Connect talk: [Deploying Hydra with Ansible and AWS](https://wiki.duraspace.org/download/attachments/67241821/Deploying%20Hydra%20with%20Ansible%20and%20AWS%281%29.pdf?version=1&modificationDate=1443113768038&api=v2) -- The presentation is image-heavy and the [accompanying notes](https://wiki.duraspace.org/download/attachments/67241821/DevOpsHydraConnectDeployingHydrawithAnsibleandAWS.pdf?version=1&modificationDate=1449085395026&api=v2) provide more detail.
 
 ## Execution
 To create, set up an ec2 instance:
@@ -67,4 +67,4 @@ To set up a production-like Vagrant box (for staging, troubleshooting) for your 
 Contributions are welcome in the form of issues (including bug reports, use cases) and pull requests.
 
 ## Origins
-This Ansible project was created by Data Curation Experts for the Chemical Heritage Foundation.
+This Ansible project was adapted from github.com/curationexperts/ansible-hydra, created by Data Curation Experts for the Chemical Heritage Foundation.
